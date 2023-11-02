@@ -1,0 +1,663 @@
+/* ================ Designed by Programmer Titu ================= */
+
+
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans:wght@300&family=Scada:wght@400;700&display=swap');
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Scada', sans-serif;
+}
+
+
+/* Header Part Start */
+.header_part {
+  /* padding: 10px 0; */
+  background: url(../img/home_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header_con {
+  background: rgba(0, 0, 0, .2);
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+  cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  font-size: 17px;
+  font-weight: 700;
+  color: #53d153;
+  transition: 0.3s;
+}
+.nab_logo a {
+margin-right: 250px;
+}
+.form-control {
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #111111;
+  background: rgba(255, 255, 255, .3);
+  border-radius: 1.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Menu Part End */
+
+
+/* Hero Part Start */
+.hero_part {
+  padding: 30px 0;
+}
+.hero_padding {
+  padding: 180px 0;
+}
+.hero_head h2 {
+  font-size: 55px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.hero_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hero_btn {
+  width: 246px;
+  height: 46px;
+  background: #53d153;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_btn a {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+  text-decoration: none;
+}
+.hero_btn:hover {
+  background: rgba(255, 255, 255, .4);
+  transition: 0.3s;
+}
+.hero_btn:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+.hero_btn_inner{
+  display: flex;
+  justify-content: center;
+}
+.btn_inner {
+  width: 125px;
+  height: 28px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_inner a {
+  font-size: 16px;
+  color: #111111;
+  font-family: 'Scada', sans-serif;
+  text-decoration: none;
+}
+.btn_inner:hover {
+ background: #53d153;
+ transition: 0.3s;
+}
+.btn_inner:hover a {
+  color: #fff;
+  transition: 0.3s;
+}
+/* Hero Part End */
+
+/* Header Part End */
+
+/* We Do Part Start */
+.wedo_part {
+  padding: 40px 0 60px;
+}
+.wedo_head h2 {
+  font-size: 30px;
+  color: #828181;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.wedo_head p {
+  font-size: 16px;
+  color: #b7b3b3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.wedo_icon_main {
+  margin: 50px 0 25px;
+  display: flex;
+  justify-content: center;
+}
+.icon_main {
+  height: 144px;
+  width: 144px;
+  border-radius: 15px;
+  background: #e0f3e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_main a {
+  color: #53d153;
+  font-size: 90px;
+}
+.Wedo_icon_head h5 {
+  font-size: 24px;
+  color: #828181;
+  font-family: 'Scada', sans-serif;
+  font-weight: 700;
+}
+.Wedo_icon_head p {
+  font-size: 14px;
+  color: #828181;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 20px 0;
+}
+.wedo_button {
+  display: flex;
+  justify-content: center;
+}
+.wedo_btn {
+  width: 120px;
+  height: 28px;
+  border-radius: 20px;
+  background: #53d153;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wedo_btn a {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.wedo_btn:hover {
+  background: #000;
+  transition: 0.3s;
+}
+.wedo_btn:hover a {
+  color: #238123;
+  transition: 0.3s;
+}
+/* We Do Part End */
+
+
+/* Latest Work Part Start */
+.latest_part {
+  padding: 40px 0;
+  background: #54d154;
+}
+.latest_work h2 {
+  color: #238123;
+}
+.latest_work p {
+  color: #2b9b2b;
+}
+.latest_menu {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.latest_menu_in {
+  width: 280px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #2b9b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.menu_inner_1 {
+  width: 180px;
+  height: 35px;
+  background: #2b9b2b;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-left: -72px;
+}
+.menu_inner_1 a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: .375rem .75rem;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Scada', sans-serif;
+}
+.menu_inner a {
+  margin-left: 30px;
+  text-decoration: none;
+  padding: .375rem .75rem;
+  color: #2b9b2b;
+  font-size: 16px;
+  font-family: 'Scada', sans-serif;
+  border-right: 1px solid #2b9b2b;
+}
+.b-1 a {
+  border-right: none;
+}
+.latest_button {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.latest_btn {
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+  background: #2b9b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest_btn a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+}
+.mt_1 {
+  margin-top: 1.5rem;
+}
+.latest_btn:hover {
+  background: #000;
+  transition: 0.3s;
+}
+/* Latest Work Part End */
+
+
+/* Testimonial Part Start */
+.testimonial_part {
+  padding: 40px 0;
+}
+.left_arrow,
+.right_arrow {
+  text-align: center;
+  margin-top: 70px;
+}
+.right_arrow a,
+.left_arrow a {
+  color: #dfdfdf;
+  font-size: 60px;
+}
+.testimonial_text p {
+  margin: 70px 0;
+  font-size: 17px;
+  color: #444444;
+  font-family: 'Scada', sans-serif;
+}
+.testimonial_img {
+  display: flex;
+  justify-content: center;
+}
+.test_img_text p {
+  font-size: 17px;
+  color: #444444;
+  font-family: 'Scada', sans-serif;
+  margin-right: 50px;
+}
+.test_img_text h5 {
+  font-size: 18px;
+  color: #cccccc;
+  font-family: 'Scada', sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+}
+/* Testimonial Part End */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
+
+/* Client Part Start */
+.client_part {
+  padding: 40px 0;
+  background: #f2f1f1;
+}
+.client_logo {
+  margin: 70px 60px 10px;
+}
+.client_button {
+  display: flex;
+  justify-content: center;
+}
+.client_btn {
+  margin: 60px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+  background: #dddcdc;
+}
+.client_btn a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #a59d9d;
+}
+.client_btn:hover {
+  background: #54d154;
+  transition: 0.3s;
+}
+.client_btn:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+/* Client Part End */
+
+
+/* Team Part Start */
+.team_part {
+  background: #54d154;
+}
+.team_con {
+  padding: 40px 0;
+}
+.team_img p {
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+}
+.team_button {
+  display: flex;
+  justify-content: center;
+}
+.team_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 48px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, .4);
+}
+.team_btn_icon_1,
+.team_btn_icon_2,
+.team_btn_icon_3,
+.team_btn_icon_1 a,
+.team_btn_icon_2 a,
+.team_btn_icon_3 a {
+  width: 32px;
+  height: 32px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 0 2px;
+}
+.team_btn_icon_1 a,
+.team_btn_icon_2 a,
+.team_btn_icon_3 a {
+  font-size: 18px;
+}
+.team_btn_icon_1 a {
+  color: #e44181;
+  background-color: none;
+}
+.team_btn_icon_2 a {
+  color: #fff;
+  background-color: #0061ff;
+}
+.team_btn_icon_3 a {
+  color: #fff;
+  background-color: #00abed;
+}
+.team_btn_icon_1:hover a,
+.team_btn_icon_2:hover a,
+.team_btn_icon_3:hover a {
+  color: #000;
+  background: none;
+  transition: 0.3s;
+}
+.team_main_btn {
+  padding: 25px 0;
+  background: #269b26;
+  display: flex;
+  justify-content: center;
+ 
+}
+.main_btn {
+  width: 175px;
+  height: 42px;
+  border-radius: 30px;
+  box-shadow: rgb(0, 0, 0, .5);
+  background: #53d153;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_btn a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #fff;
+}
+.main_btn:hover  {
+  background: rgba(255, 255, 255, .4);
+  transition: 0.3s;
+}
+.main_btn:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+/* Team Part End */
+
+
+/* contact Part Start */
+.contact_part {
+  padding: 50px;
+  background: #333333;
+}
+.contact_about_head h4 {
+  font-size: 24px;
+  color: #dddddd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.contact_about_head p {
+  font-size: 16pxpx;
+  color: #cccccc;
+  font-family: 'Scada', sans-serif;
+  margin: 25px 0;
+}
+.recent_img img {
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+  margin: 2px 0 0 40px;
+}
+.recent_post p {
+  font-size: 17px;
+  color: #cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.recent_btn {
+ display: flex;
+}
+.recent_button,
+.recent_button_2,
+.recent_button_3,
+.recent_button_4,
+.recent_button_5 {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.recent_button_5 a,
+.recent_button_4 a,
+.recent_button_3 a,
+.recent_button_2 a,
+.recent_button a {
+  font-size: 15px;
+  color: #d4f3d4;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.recent_button_2:hover a,
+.recent_button_3:hover a,
+.recent_button_4:hover a,
+.recent_button_5:hover a,
+.recent_button:hover a {
+  color: #000;
+  transition: 0.3s;
+}
+.recent_button {
+  background: #53d153;
+}
+.recent_button_2 {
+background: #f2b103;
+}
+.recent_button_3 {
+  width: 140px;
+  height: 25px;
+  background: #089cea;
+}
+.recent_button_4 {
+  background: #f34c03;
+}
+.recent_button_5 {
+  background: #ffba00;
+}
+
+/* From Part */
+.name {
+  height: 34px;
+  width: 322px;
+  border: 1px solid #444444;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #999999;
+  background: #444444;
+}
+.mb-1 {
+  border-radius: 5px 5px 0 0;
+}
+.box {
+  height: 132px;
+  width: 322px;
+  border: 1px solid #444444;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #919191;
+  background: #444444;
+  margin-top: -16px;
+}
+.btn_send {
+  height: 34px;
+  width: 322px;
+  background: #2b9b2b;
+  border: 1px solid #444444;
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.btn_send:hover {
+  color: #111;
+  transition: 0.3s;
+}
+/* contac part End */
+
+
+/* AS Seen Part Start */
+.seen_h h4 {
+  color: #000;
+}
+.seen_part {
+  padding: 25px 0;
+  background: rgba(0, 0, 0, .7);
+}
+.seem_img {
+  margin: 40px 0;
+}
+/* AS Seen Part End */
+
+
+/* Footer Part Start */
+.footer_part {
+  padding: 10px 0;
+  background: #111111;
+}
+.footer_part p {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Scada', sans-serif;
+}
+.footer_part a {
+  margin: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+.footer_part a:hover {
+  color: #f3333f;
+  transition: 0.3s;
+}
+/* Footer Part End */
+
+
+/* /////////////////////////////////
+  //                                   Responsiv CSS   ======== >>   Developed by Programmer Titu With Titu Mollick =================== 
+ ///////////////////////////////////
+ */
+
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .nab_logo a {
+    margin-left: 120px;
+    }
+  .recent_img img {
+    margin: 2px 0 0 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .recent_img img {
+    margin: 2px 0 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
